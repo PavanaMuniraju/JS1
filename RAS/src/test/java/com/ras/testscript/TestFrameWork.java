@@ -10,4 +10,10 @@ public class TestFrameWork {
 	{
 		Reporter.log("First testcase",true);
 	}
+	
+	@Test 
+	public void tc_02()
+	{
+		Reporter.log("second testcase",true);
+	}
 }
